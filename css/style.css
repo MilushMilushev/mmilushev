@@ -216,8 +216,8 @@ a.link-email:hover { color: #fff; background-color: #6200EE; }
 .section-projects h4 { text-align: center; }
 .image { padding-bottom: 56%; background-color: #000; }
 
-.projects { display: flex; flex-wrap: wrap; margin: 0 -5px; padding-top: 40px; }
-.project { width: 33.3333333%; padding: 5px; margin-bottom: 35px; }
+.projects { display: flex; flex-wrap: wrap; justify-content: center; margin: 0 -5px; padding-top: 40px; }
+.project { max-width: 335px; padding: 5px; margin-bottom: 35px; }
 .project-inner { background-color: #fff; position: relative; }
 .project-inner:after { content: ''; display: block; width: 0; height: 2px; position: absolute; left: 0px; bottom: 0px; background-color: #6200EE; transition: width 0.3s;}
 .project-inner:hover:after { width: 100%; }

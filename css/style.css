@@ -212,7 +212,7 @@ a.link-email:hover { color: #fff; background-color: #6200EE; }
   Section Projects
 \* ------------------------------------------------------------ */
 
-.section-projects { background-color: #f6f8fa; overflow: hidden; }
+.section-projects { background-color: #f6f8fa; overflow: hidden; display: none; }
 .section-projects h4 { text-align: center; }
 .image { padding-bottom: 56%; background-color: #000; }
 
